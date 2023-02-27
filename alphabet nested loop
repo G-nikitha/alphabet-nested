@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    char i, j, max = 'Z';
+    
+    for (i = 'A'; i <= max; i++) {  
+        for (j = 'A'; j <= i; j++) {  
+            printf("%c ", j);
+        }
+        printf("\n"); 
+    }
+    
+    return 0;
+}
